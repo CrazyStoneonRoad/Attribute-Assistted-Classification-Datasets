@@ -1,41 +1,33 @@
 # Attribute-Cooperated-Classification-Datasets
+
 ## Contents
 Three ***Attribute-Cooperated-Classification-Datasets*** **(ACC Datasets)** are built based on three existing classficiation datasets:
-- AC-AID based on AID [1] and RSICD [4]
-- AC-UCM based on UCM [2] and Caption [5]
-- AC-Sydney based on Sydney [3] and Caption [5]
 
-## Attribute Type Lists for ACC Datasets
-Several rows of [Attribute Type Lists](https://github.com/CrazyStoneonRoad/Attribute-Cooperated-Classification-Datasets/blob/master/Attribute_List.md) are shown below:
+- **AC-AID** based on AID [1] and RSICD [4]
 
-![Samples](https://github.com/CrazyStoneonRoad/Attribute-Cooperated-Classification-Datasets/blob/master/%E5%9B%BE%E7%89%87.png)
+- **AC-UCM** based on UCM [2] and Caption [5]
 
-## Calculates
+- **AC-Sydney** based on Sydney [3] and Caption [5]
 
-<img src="https://github.com/CrazyStoneonRoad/Attribute-Assistted-Classification-Datasets/blob/master/AC-AID/%E5%9B%BE%E7%89%87.png" width="500" hegiht="313" align=center />
+## Data sets overview
 
-<img src="https://github.com/CrazyStoneonRoad/Attribute-Assistted-Classification-Datasets/blob/master/AC-UCM/%E5%9B%BE%E7%89%87.png" width="500" hegiht="313" align=center />
+- **AC-AID**: 83 attribute items, 30 scene categories, 10000 images.
 
-<img src="https://github.com/CrazyStoneonRoad/Attribute-Assistted-Classification-Datasets/blob/master/AC-Sydney/%E5%9B%BE%E7%89%87.png" width="500" hegiht="313" align=center /> 
+- **AC-UCM**: 56 attribute items, 21 scene categories, 2100 images.
+
+- **AC-Sydney**: 30 attribute items, 7 scene categories, 613 images.
 
 
-## Samples
-Samples of the three datasets are shown as below.
-- AC-AID
-![aid](https://github.com/CrazyStoneonRoad/Attribute-Assistted-Classification-Datasets/blob/master/AC-AID/AC-AID-2r.png)
-- AC-UCM
-![ucm](https://github.com/CrazyStoneonRoad/Attribute-Assistted-Classification-Datasets/blob/master/AC-UCM/AC-UCM-2r.png)
-- AC-Sydney
-![sydney](https://github.com/CrazyStoneonRoad/Attribute-Assistted-Classification-Datasets/blob/master/AC-Sydney/AC-Sydney-2r.png)
+## Attribute/Scene Lists for ACC Datasets
 
-Classification labels are shown on the left side of the images. 
-Several elements of attribute label vectors are shown below the images.
+The attribute type list in [here](https://github.com/CrazyStoneonRoad/Attribute-Cooperated-Classification-Datasets/blob/master/Attribute_List.md), where two columns are used to show attribute items and the sample counts of these attribute items. 
+
+The scene type list please refer to [1~3]. 
 
 
-## Citations
-If you find the ACC Datasets usesful, please cite the following articles.
+## Citation
+If you find the ACC Datasets usesful, please cite the following article.
 
-### Our article:
 ```
 @article{zhang2020Attribute,
   title={Attribute-Cooperated Convolutional Neural Network for Remote Sensing Image Classification},
@@ -49,7 +41,8 @@ If you find the ACC Datasets usesful, please cite the following articles.
 }
 ```
 
-### Other articles:
+#### References
+
 - [1] AID: 
 ```
 @article{xia2017aid,
